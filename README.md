@@ -1,18 +1,23 @@
 # LcdFrontPanel
 
-The LcdFrontPanel is a I2C based LCD front panel with a rotary encoder and a RGB LED.
+The LcdFrontPanel module is a I2C based LCD front panel with a rotary encoder and a RGB LED.
 It adds a user interface to you project just by connecting it via I2C. The unit contains two Qwiic/STEMMA QT connectors as well as a footprint for a pin-header. The module runs on 3.3V or 5V (the display contrast has to be adjusted when changing the supply voltage).
 A demo application demonstrating a simple menu structure can be found in the [LcdApplication](LcdApplication/) subfolder. The schematic is available in the [Documentation](Documentation/) folder.
+There are versions with 16x2 and 20x4 LCD displays. The circuit is the same for both display variants.
 
 The boards will be available soon in my tindie store.
+
 
 [<img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-smalls.png">](https://www.tindie.com/stores/kieselelectonic/?ref=offsite_badges&utm_source=sellers_KieselElectonic&utm_medium=badges&utm_campaign=badge_small)
 
 ![](img/P1010373.JPG)
+![](img/P1010391.JPG)
+
 
 The panel is designed for easy integration. The four studs around the display can be used to attach it to the front panel of a case.
 
 ![outline](img/PCB_outline.png)
+![4x20 outline](img/4x20_PCB_outline.png)
 ![](img/P1010378.JPG)
 ![](img/P1010379.JPG)
 
